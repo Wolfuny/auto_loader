@@ -1,0 +1,18 @@
+{
+    "name": "stagiaire5/poo_autoloader",
+    "description": "azerty",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Animal\\": "src/Animal/",
+            "App\\Owner\\": "src/Owner/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wolfuny",
+            "email": "antonin.gurdak@gmail.com"
+        }
+    ],
+    "require": {}
+}
